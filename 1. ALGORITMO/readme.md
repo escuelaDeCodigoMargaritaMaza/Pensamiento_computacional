@@ -30,13 +30,15 @@ comida.
 
 ENTRADAS
 
-<img src="../images/pasta.jpg" >
+![image](https://user-images.githubusercontent.com/91554777/184996939-1509a49a-7998-4179-86d0-c554b4c80a3a.png)
+
 PROCESOS
 
-<img src="../images/pasos.jpg" >
+![image](https://user-images.githubusercontent.com/91554777/184996969-73cd1b78-2cfc-45af-bf9d-4b9d002ca4f5.png)
+
 RESULTADOS
 
-<img src="../images/sonrisa.jpg" >
+![image](https://user-images.githubusercontent.com/91554777/184996997-cf2e8b71-e7f6-4666-a886-c7f5783debe5.png)
 
 ¿Para qué se utilizan los algoritmos?
 
