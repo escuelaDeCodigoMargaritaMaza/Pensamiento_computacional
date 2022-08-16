@@ -9,7 +9,38 @@ CUATRO EJES:
 * Algoritmos. Un algoritmo es un plan, un conjunto de pasos o esquemas que nos permiten solucionar un problema paso a paso. Gracias a ellos logramos elaborar una serie de instrucciones claras y simples con las que afrontar cualquier encrucijada. Asimismo hay aspectos que los definen, como por ejemplo, que siempre tienen un número finito de pasos, que se orientan a un fin y que son específicos (no ambiguos).
 
 # ALGORITMO
-CONSISTE EN UNA SERIE DE INSTRUCCIONES DETALLADAS FINITAS Y ESCRITAS EN UN LENGUAJE COTIDIANO SOBRE CÓMO RESOLVER UN PROBLEMA O EJECUTAR UNA ACCIÓN POR MEDIO DEL RAZONAMIENTO LÓGICO.
+
+## ¿Qué tan recientes son los algoritmos?
+Los humanos han creado, modificado y utilizado algoritmos a lo largo de la historia. Hace más de 4500 años los sumerios ilustraron en tablas de arcilla un método repetitivo utilizado para distribuir de forma equitativa la cosecha de granos entre un número variable de hombres [2].
+
+Aproximadamente en el año 300 A.C en la Grecia Helenística, el matemático Euclides escribió “Elementos”, un trabajo que sentaría las bases para la geometría de los próximos milenios, ese texto incluye su famoso algoritmo para hallar el máximo común divisor.
+
+A mediados del siglo XIX, Augusta Ada Byron (Ada Lovelace) crea lo que se considera el primer algoritmo diseñado para ser ejecutado por una máquina. Lovelace, sentó las bases para los lenguajes de programación futuros (como la programación funcional).
+
+Ya en el siglo pasado con la llamada “Revolución Informática” los algoritmos comenzaron a tener un peso cada vez mayor. A medida que avanzaba la era de la computación estos adquirieron cada vez más relevancia hasta convertirse en parte de un engranaje vital en los procesos tecnológicos que afectan nuestro diario vivir.
+
+ 
+
+## Características y clasificaciones de los algoritmos
+### Partes del algoritmo y generalidades
+Independientemente de la clasificación y el tipo de algoritmo, básicamente todos están compuestos de tres partes principales:
+
+### Entrada: Se trata del conjunto de datos que el algoritmo necesita como insumo para procesar.
+### Proceso: Son los pasos necesarios aplicados por el algoritmo a la entrada recibida para poder llegar a una salida o resolución del problema.
+### Salida: Es el resultado producido por el algoritmo a partir del procesamiento de la entrada una vez terminada la ejecución del proceso.
+Además del tipo de algoritmo existen una serie de características comunes a todos, a continuación, se mencionan alguna de ellas.
+
+### Exactitud: el algoritmo tiene que indicar un orden claro de la ejecución de cada paso, estos no pueden ser ambiguos (debe existir una confiabilidad).
+### Estar definido: si se realiza la ejecución de un mismo algoritmo en distintas instancias utilizando la misma entrada, debe resultar en la misma salida.
+### Completo: en la solución se deben considerar todas las posibilidades del problema.
+### Finito: necesariamente un algoritmo debe tener un número finito de pasos.
+### Instrucciones entendibles: Las instrucciones que lo describen deben ser claras y legibles.
+### General: debe poder abarcar problemas de un mismo tema soportando las distintas variantes que se presentan en la definición del problema.
+
+## Criterios de clasificación de los algoritmos
+Según el criterio utilizado se aplican diferentes clasificaciones a los algoritmos. Por ejemplo, si usamos la clasificación por el sistema de signos con el cual se describen los pasos a seguir del algoritmo, podemos diferenciar dos tipos, algoritmos cualitativos: aquellos que sus pasos son instrucciones verbales y algoritmos cuantitativos: aquellos que se siguen instrucciones de cálculos numéricos.
+
+Si se clasifican en base a su función se pueden establecer tres grupos principales como son los algoritmos de búsqueda, algoritmos de ordenamiento y algoritmos de encaminamiento o enrutamiento.
 
 Varias de las acciones de tu vida cotidiana pueden verse como algoritmos
 ya que para completar ciertas tareas, realizas las mismas acciones una y
