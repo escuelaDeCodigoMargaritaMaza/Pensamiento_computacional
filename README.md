@@ -31,7 +31,7 @@ Objetivo General: El estudiantado desarrollará conocimientos básicos para
 resolver problemas y representar soluciones a través de ejercicios de lógica de
 programación mediante algoritmos y diagramas.
 
-<img src="../images/pensamiento.png" alt="Pensamiento_computacional" >
+![image](https://user-images.githubusercontent.com/91554777/184998705-ce765c87-7a1e-4949-a344-69d0461c55e9.png)
 
 * Algoritmo
 
