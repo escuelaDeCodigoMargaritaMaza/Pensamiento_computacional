@@ -87,55 +87,7 @@ SE UTILIZAN PARA LISTAR LOS PASOS A SEGUIR EN
 ACTIVIDADES DIARIAS CÓMO PREPARAR UNA BEBIDA O
 PEINARSE.
 
-### Ejemplos de algoritmos cualitativos
 
-Cambiar el pañal a un bebé
-
-INICIO
-
-1 Buscar materiales a utilizar
-
-2 Lavarse bien las manos con abundante jabón y agua.
-
-3 Tomar una toalla limpia para secarse y mantener las manos a la temperatura ambiente.
-
-4 Desvestir al bebé desde la cintura hacia abajo.
-
-5 Tomar los pies del bebé y llevarlos hacia arriba.
-
-6 Despegar las cintas adhesivas a cada lado del pañal nuevo.
-
-7 Utilizar unas toallas húmedas para limpiar sobre el pompis del bebé.
-
-8 Luego que el bebé esté limpio, colocarle el pañal nuevo.
-
-9 Pegar las dos cintas adhesivas.
-
-10 Vestir al bebé de nuevo.
-
-11 Lavarse de nuevo las manos con agua y jabón.
-
-FIN
-
-Cambiar un vidrio dañado
-
-INICIO
-
-1 Buscar materiales a utilizar
-
-2 Retirar con sumo cuidado el vidrio que se encuentra dañado.
-
-3 Retirar con una espátula el silicón que quedó pegado en el marco del vidrio.
-
-4 Limpiar todo el marco de la ventana con material de limpieza o con una tela.
-
-5 Poner el silicón en el marco de la ventana.
-
-6 Colocar el vidrio nuevo.
-
-7 Mientras se seca el silicón, sostener el vidrio durante dos o tres minutos.
-
-FIN
 
 
 ## CUANTITATIVOS
