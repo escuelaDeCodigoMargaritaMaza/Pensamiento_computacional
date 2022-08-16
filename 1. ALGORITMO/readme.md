@@ -1,0 +1,165 @@
+# PENSAMIENTO COMPUTACIONAL
+El pensamiento computacional es un proceso cognitivo de alto nivel que nos permite pensar de manera científica a la hora de resolver un problema.
+
+CUATRO EJES:
+
+* Descomponer: todo problema está formado por pequeñas partes que pueden dividirse para comprenderlas mejor.
+* Saber reconocer patrones: todo fenómeno, toda experiencia, estímulo, problema o circunstancia suele seguir un esquema interno y responder a un patrón que podemos identificar.
+* Pensamiento abstracto. Este tipo de razonamiento es exclusivo del ser humano. Gracias a él podemos crear ideas originales o más interesante aún, prever situaciones o escenarios para saber cómo actuaríamos ante esas circunstancias.
+* Algoritmos. Un algoritmo es un plan, un conjunto de pasos o esquemas que nos permiten solucionar un problema paso a paso. Gracias a ellos logramos elaborar una serie de instrucciones claras y simples con las que afrontar cualquier encrucijada. Asimismo hay aspectos que los definen, como por ejemplo, que siempre tienen un número finito de pasos, que se orientan a un fin y que son específicos (no ambiguos).
+
+# ALGORITMO
+CONSISTE EN UNA SERIE DE INSTRUCCIONES DETALLADAS FINITAS Y ESCRITAS EN UN LENGUAJE COTIDIANO SOBRE CÓMO RESOLVER UN PROBLEMA O EJECUTAR UNA ACCIÓN POR MEDIO DEL RAZONAMIENTO LÓGICO.
+
+Varias de las acciones de tu vida cotidiana pueden verse como algoritmos
+ya que para completar ciertas tareas, realizas las mismas acciones una y
+otra vez. Por ejemplo, cuando lavas tus dientes. Para redactar un algoritmo
+define las entradas de tu proceso, es decir, los elementos que son
+necesarios para realizar una acción. En el caso de lavarse los dientes, los
+insumos que requiere son la crema dental, el cepillo y un vaso con agua.
+Después determina las acciones que llevas a cabo, redáctalas de forma
+sencilla y numera cada instrucción. Por ejemplo, tomar la pasta dental,
+abrir el producto, colocar la tapa de la pasta en algún lugar, tomar el
+cepillo de dientes, exprimir cierta cantidad de pasta en el cepillo, dejar la
+pasta sobre algún lugar, abrir la boca, colocar el cepillo en las encías,
+cepillar los dientes, cepillar la lengua suavemente, tomar el vaso con agua
+y enjuagarse la boca, repetir el procedimiento hasta que la boca esté libre
+de residuos. Determina qué resultados se pretende llegar. Para el
+algoritmo del ejemplo, el objetivo es obtener dientes sin residuos de
+comida.
+
+ENTRADAS
+
+<img src="../images/pasta.jpg" >
+PROCESOS
+
+<img src="../images/pasos.jpg" >
+RESULTADOS
+
+<img src="../images/sonrisa.jpg" >
+
+¿Para qué se utilizan los algoritmos?
+
+Una vez fijados los términos de lo qué es un algoritmo, cómo se utilizan en nuestra vida cotidiana?
+
+Cuando un desarrollador crea un programa, en esencia lo que está creando es un conjunto de algoritmos. Un programa de ordenador es un conjunto de órdenes que se dan a la máquina, escritas en un lenguaje concreto, para que realice una serie de operaciones determinadas con el fin de obtener un resultado.
+Como puedes suponer, un ordenador, “en crudo”, no entiende el lenguaje humano. Es por eso que, para comunicarse con su equipo, el programador utiliza los lenguajes de programación.
+
+El lenguaje de programación es, pues, la herramienta que sirve de puente entre el lenguaje humano y el lenguaje que puede entender la máquina. Gracias a él, el programador puede elaborar los algoritmos y crear una serie de instrucciones que el ordenador puede “entender” gracias al lenguaje de programación y obedecer (dado que, por el momento, los ordenadores no disponen de voluntad propia, no les queda otro remedio que hacerlo).
+
+
+
+## CUALITATIVOS
+SE UTILIZAN PARA LISTAR LOS PASOS A SEGUIR EN
+ACTIVIDADES DIARIAS CÓMO PREPARAR UNA BEBIDA O
+PEINARSE.
+
+### Ejemplos de algoritmos cualitativos
+
+Cambiar el pañal a un bebé
+
+INICIO
+
+1 Buscar materiales a utilizar
+
+2 Lavarse bien las manos con abundante jabón y agua.
+
+3 Tomar una toalla limpia para secarse y mantener las manos a la temperatura ambiente.
+
+4 Desvestir al bebé desde la cintura hacia abajo.
+
+5 Tomar los pies del bebé y llevarlos hacia arriba.
+
+6 Despegar las cintas adhesivas a cada lado del pañal nuevo.
+
+7 Utilizar unas toallas húmedas para limpiar sobre el pompis del bebé.
+
+8 Luego que el bebé esté limpio, colocarle el pañal nuevo.
+
+9 Pegar las dos cintas adhesivas.
+
+10 Vestir al bebé de nuevo.
+
+11 Lavarse de nuevo las manos con agua y jabón.
+
+FIN
+
+Cambiar un vidrio dañado
+
+INICIO
+
+1 Buscar materiales a utilizar
+
+2 Retirar con sumo cuidado el vidrio que se encuentra dañado.
+
+3 Retirar con una espátula el silicón que quedó pegado en el marco del vidrio.
+
+4 Limpiar todo el marco de la ventana con material de limpieza o con una tela.
+
+5 Poner el silicón en el marco de la ventana.
+
+6 Colocar el vidrio nuevo.
+
+7 Mientras se seca el silicón, sostener el vidrio durante dos o tres minutos.
+
+FIN
+
+
+## CUANTITATIVOS
+IMPLICAN CÁLCULOS NUMÉRICOS, POR EJEMPLO CALCULAR
+EL FINIQUITO DE UN EMPLEADO U OBTENER LA RAÍZ
+CUADRADA DE UN NÚMERO.
+
+CARACTERISTICAS DE ALGORITMOS CUANTITATIVOS
+
+* MUY PRECISOS
+* DEFINIDOS
+* INDEPENDIENTE Y AUTONOMO
+
+### EJEMPLOS DE ALGORITMOS CUANTITATIVOS
+
+Obtener el área de un triángulo
+
+1 Inicio.
+
+2 Declarar (base, altura, área_triángulo): números reales.
+
+3 Ingresar valores del triángulo (base, altura).
+
+4 área_triángulo= (base * altura) / 2.
+
+5 Mostrar (área_triángulo).
+
+6 Fin.
+
+Obtener el promedio de tres números naturales
+
+1 Inicio.
+
+2 Declarar (número1, número2, número3, sumar, promediar): números naturales.
+
+3 Ingresar los valores de (número1, número2, número3).
+
+4 sumar= número1 + número2 + número3.
+
+5 promediar= sumar / 3.
+
+6 Mostrar (sumar, promediar).
+
+7 Fin.
+
+
+
+
+LA RESOLUCIÓN DE PROBLEMAS A
+TRAVÉS DE ALGORITMOS ES LA FORMA
+MÁS EFECTIVA PARA DESARROLLAR UN
+
+PENSAMIENTO ESTRUCTURADO Y
+
+LÓGICO.
+
+
+NOTA: Los algoritmos son cualitativos cuando no se tienen involucrados cálculos numéricos en sus instrucciones o pasos. Por ejemplo, las instrucciones para desplegar una actividad física, para ensamblar un mueble que viene desarmado de fábrica o para realizar una receta de cocina.
+
+Por otro lado, los algoritmos son cuantitativos cuando tienen instrucciones o pasos que involucran cualquier tipo de cálculo numérico. Ejemplos: el algoritmo para resolver una combinatoria o un factorial, o para calcular algún promedio.
