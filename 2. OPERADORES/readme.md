@@ -29,7 +29,7 @@ para la computadora, mientras 3 * 8 sí lo es.
 
 Ejemplo:
 
-X = (3^2 + 10/2) + (3*9)
+# X = (3^2 + 10/2) + (3*9)
 
 En la expresión anterior primero se agrupan los términos dentro de los paréntesis de izquierda a derecha
 
