@@ -3,9 +3,15 @@ Reto. Describe el proceso en que se computa las siguientes fórmulas.
 
 X = (18/9 * 2 + 16) – ( 5 * 4 – 3^3)
 
-      TU RESPUESTA AQUI
+      X = (2 * 2 + 13) - (5 * 4 - 3^3)
+      X = (4 + 13)-(5 * 4 - 3 ^3)
+      X = 17 - (5 * 4 - 3 ^ 3)
+      X = 17 - (5 * 4 - 27)
+      X = 17 - (20 - 27)
+      X = 17 - (- 7)
+      X = 24
 
-X = (5 + 2 * 4) – (25 +. 5)2
+X = (5 + 2 * 4) – (25 +. 5) * 2
 
       TU RESPUESTA AQUI
 
