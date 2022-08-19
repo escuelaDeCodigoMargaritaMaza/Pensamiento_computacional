@@ -30,4 +30,11 @@ Realiza un algoritmo que calcule el promedio de un alumno el cual tiene cuatro c
       TU ALGORITMO AQUI
       
       
-Ahora llevalo a PSINT
+## EJERCICIO 3
+
+Realiza un algoritmo para un programa que solicite al usuario su nombre y le salude usando ese nombre
+
+      TU ALGORITMO AQUI  
+
+
+Ahora llevalos a PSINT
