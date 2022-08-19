@@ -94,3 +94,25 @@ Mientras que algunas declaraciones incorrectas, serían las siguientes:
 numero Telefono
 
 int
+
+
+
+EJEMPLO
+
+* Vamos a realizar un algoritmo que calcule el resultado de sumar dos números.
+
+      1.- inicio
+      2.- declarar numero1(int),numero2(int),resultado(int)
+      3.- asignar numero1=5, numero2=15, resultado=0
+      4.- resultado = numero1 + numero2
+      5.- mostrar resultado
+      6.- fin
+      
+* Agrega al mismo programa que muestre un saludo 
+
+      1.- inicio
+      2.- declarar numero1(int),numero2(int),resultado(int), saludo(str)
+      3.- asignar numero1=5, numero2=15, resultado=0, saludo = "hola"
+      4.- resultado = numero1 + numero2
+      5.- mostrar saludo, resultado
+      6.- fin
