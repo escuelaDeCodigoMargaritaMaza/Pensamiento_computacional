@@ -36,5 +36,10 @@ Realiza un algoritmo para un programa que solicite al usuario su nombre y le sal
 
       TU ALGORITMO AQUI  
 
+## EJERCICIO 3
+
+Realiza un algoritmo para  un programa que solicite al usuario ingresar la cantidad de kilómetros recorridos por una motocicleta y la cantidad de litros de combustible que consumió durante ese recorrido. El consumo por kilómetro es de 20.8
+
+      TU ALGORITMO AQUI  
 
 Ahora llevalos a PSINT
