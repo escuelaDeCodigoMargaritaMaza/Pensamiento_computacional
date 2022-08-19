@@ -116,3 +116,17 @@ EJEMPLO
       4.- resultado = numero1 + numero2
       5.- mostrar saludo, resultado
       6.- fin
+
+* Ahora solicitaremos los datos al usuario y cambiaremos el saludo por su nombre
+
+      1.- inicio
+      2.- declarar numero1(int),numero2(int),resultado(int), nombre(str)
+      3.- mostrar "ingresa un numero"
+      4.- asignar numero1
+      5.- mostrar "ingresa otro numero"
+      6.- asignar numero2
+      7.- mostrar "ingresa tu nombre"
+      8.- asignar nombre
+      9.- resultado = numero1 + numero2
+      10.- mostrar saludo, resultado
+      11.- fin
