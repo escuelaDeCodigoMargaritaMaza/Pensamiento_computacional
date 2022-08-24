@@ -15,7 +15,7 @@ Ejecutar un grupo de sentencias un número determinado de veces
 
 Todos los lenguajes de programación modernos tienen estructuras de control similares. Básicamente lo que varía entre las estructuras de control de los diferentes lenguajes es su sintaxis; cada lenguaje tiene una sintaxis propia para expresar la estructura.
 
-##ESTRUCTURA CONDICIONAL
+## ESTRUCTURA CONDICIONAL if
 
 La finalidad de utilizar la estructura condicional es tomar una decisión con base en el valor booleano de una expresión, es decir, determinar si la
 condición es verdadera o falsa.
