@@ -133,3 +133,5 @@ Además, pese a que aprovechan mejor las características del hardware, son los 
 Ejemplos ARM, MIPS, SPARC, PIC.
 
 Existen dos tipos de lenguajes de bajo nivel: máquina y ensamblador.
+
+#Automatización
