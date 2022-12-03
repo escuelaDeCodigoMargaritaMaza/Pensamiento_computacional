@@ -134,4 +134,4 @@ Ejemplos ARM, MIPS, SPARC, PIC.
 
 Existen dos tipos de lenguajes de bajo nivel: máquina y ensamblador.
 
-#Automatización
+# Automatización
