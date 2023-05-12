@@ -1,4 +1,4 @@
-# PENSAMIENTO COMPUTACIONAL
+# PENSAMIENTO COMPUTACIONAL.
 El pensamiento computacional es un proceso cognitivo de alto nivel que nos permite pensar de manera científica a la hora de resolver un problema.
 
 CUATRO EJES:
