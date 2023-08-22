@@ -1,3 +1,6 @@
+![image](https://github.com/escuelaDeCodigoMargaritaMaza/Pensamiento_computacional/assets/91554777/857b9558-ba46-4cd8-ae0c-11fc3a659efc)
+
+
 # PENSAMIENTO COMPUTACIONAL.
 El pensamiento computacional es un proceso cognitivo de alto nivel que nos permite pensar de manera científica a la hora de resolver un problema.
 
