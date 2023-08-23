@@ -12,7 +12,8 @@ CUATRO EJES:
 * Saber reconocer patrones: todo fenómeno, toda experiencia, estímulo, problema o circunstancia suele seguir un esquema interno y responder a un patrón que podemos identificar.
 * Pensamiento abstracto. Este tipo de razonamiento es exclusivo del ser humano. Gracias a él podemos crear ideas originales o más interesante aún, prever situaciones o escenarios para saber cómo actuaríamos ante esas circunstancias.
 * Algoritmos. Un algoritmo es un plan, un conjunto de pasos o esquemas que nos permiten solucionar un problema paso a paso. Gracias a ellos logramos elaborar una serie de instrucciones claras y simples con las que afrontar cualquier encrucijada. Asimismo hay aspectos que los definen, como por ejemplo, que siempre tienen un número finito de pasos, que se orientan a un fin y que son específicos (no ambiguos).
-
+### QUE ES PROGRAMAR?
+Resolver un problema de la vida real, de forma automática usando programas de computadora.
 # ALGORITMO
 
 ## ¿Qué tan recientes son los algoritmos?
