@@ -2,7 +2,7 @@
 
 https://survey.stackoverflow.co/2023/
 
-## QUÉ ES PROGRAMAR?
+# QUÉ ES PROGRAMAR?
 Resolver problemas de la vida real de forma automáica a través de un programa, podemos automatizar un proceso que antes se realizaba manualmente.
 
 
