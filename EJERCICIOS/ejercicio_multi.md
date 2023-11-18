@@ -250,3 +250,65 @@
 
 <img width="371" alt="image" src="https://github.com/escuelaDeCodigoMargaritaMaza/Pensamiento_computacional/assets/91554777/d5b2965f-86d0-4808-8214-bd81e5d60646">
 
+
+# VERSION 6
+
+## SEUDOCODIGO
+
+	Algoritmo calcular_mult
+	  	Definir num1,num2,res,oper Como Entero
+		
+		num1<-azar(99)+1
+		num2<-azar(9)+1
+		oper<-azar(3)+1
+		
+		Segun oper Hacer
+			1:
+				Escribir num1," + ",num2," = "
+				Leer res
+				Si res = num1 + num2 Entonces
+					Escribir "Correcto"
+				SiNo
+					Escribir "Incorrecto"
+				Fin Si
+			2:
+				Escribir num1," - ",num2," = "
+				Leer res
+				Si res = num1 - num2 Entonces
+					Escribir "Correcto"
+				SiNo
+					Escribir "Incorrecto"
+				Fin Si
+			3:
+				Escribir num1," * ",num2," = "
+				Leer res
+				Si res = num1 * num2 Entonces
+					Escribir "Correcto"
+				SiNo
+					Escribir "Incorrecto"
+				Fin Si
+			4:
+				Escribir num1," / ",num2," = "
+				Leer res
+				Si res = num1 / num2 Entonces
+					Escribir "Correcto"
+				SiNo
+					Escribir "Incorrecto"
+				Fin Si
+			
+				Escribir "Operador no valido"
+						
+			De Otro Modo:
+				Escribir "Operador no valido"
+		Fin Segun
+		
+		
+		
+		
+		
+			
+	FinAlgoritmo
+
+## DIAGRAMA DE FLUJO
+
+<img width="378" alt="image" src="https://github.com/escuelaDeCodigoMargaritaMaza/Pensamiento_computacional/assets/91554777/82ecbf9a-d5fa-45ce-bede-eb7f276ec71d">
