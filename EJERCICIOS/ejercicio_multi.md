@@ -312,3 +312,69 @@
 ## DIAGRAMA DE FLUJO
 
 <img width="378" alt="image" src="https://github.com/escuelaDeCodigoMargaritaMaza/Pensamiento_computacional/assets/91554777/82ecbf9a-d5fa-45ce-bede-eb7f276ec71d">
+
+# VERSION 7
+## SEUDOCODIGO
+
+
+	Algoritmo calcular_mult
+	  	Definir num1,num2,res,oper,atinadas Como Entero
+		
+		//METEMOS EL CICLO Para
+		Para i<-0 Hasta 9 Con Paso 1 Hacer
+			
+	
+			num1<-azar(99)+1
+			num2<-azar(9)+1
+			oper<-azar(3)+1
+			
+			Segun oper Hacer
+				1:
+					Escribir num1," + ",num2," = "
+					Leer res
+					Si res = num1 + num2 Entonces
+						Escribir "Correcto"
+						atinadas <- atinadas + 1
+					SiNo
+						Escribir "Incorrecto"
+					Fin Si
+				2:
+					Escribir num1," - ",num2," = "
+					Leer res
+					Si res = num1 - num2 Entonces
+						Escribir "Correcto"
+						atinadas <- atinadas + 1
+					SiNo
+						Escribir "Incorrecto"
+					Fin Si
+				3:
+					Escribir num1," * ",num2," = "
+					Leer res
+					Si res = num1 * num2 Entonces
+						Escribir "Correcto"
+						atinadas <- atinadas + 1
+					SiNo
+						Escribir "Incorrecto"
+					Fin Si
+				4:
+					Escribir num1," / ",num2," = "
+					Leer res
+					Si res = num1 / num2 Entonces
+						Escribir "Correcto"
+						atinadas <- atinadas + 1
+					SiNo
+						Escribir "Incorrecto"
+					Fin Si
+				
+					Escribir "Operador no valido"
+							
+				De Otro Modo:
+					Escribir "Operador no valido"
+			Fin Segun
+		
+	   Fin Para
+		
+		escribir " Atinaste a ",atinadas
+		
+			
+	FinAlgoritmo
