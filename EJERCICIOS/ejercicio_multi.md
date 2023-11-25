@@ -485,3 +485,7 @@
 			
 	  
 	FinAlgoritmo
+
+## diagarama de flujo
+
+<img width="688" alt="image" src="https://github.com/escuelaDeCodigoMargaritaMaza/Pensamiento_computacional/assets/91554777/f8e86fb7-ed33-407f-925e-c238483667f2">
