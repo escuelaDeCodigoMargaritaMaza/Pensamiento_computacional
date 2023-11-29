@@ -43,10 +43,65 @@
 
 ![image](https://github.com/escuelaDeCodigoMargaritaMaza/Pensamiento_computacional/assets/91554777/8edad51c-5461-4d4c-bfdf-d2523f818269)
 
+# VERSION 2
+
+## PSINT
+    
+    Funcion PedirMateria()
+    	Escribir "Ingresa la materia"
+    FinFuncion
+    //procedimiento para pedir calificaciones
+    Funcion PedirCalificacion()
+    	Escribir "Ingresa la calificacion"
+    FinFuncion
+    //funcion para calcular promedio
+    Funcion promedio<-CalcularPromedio(suma)
+    	promedio<-suma/4
+    FinFuncion
+    
+    Algoritmo sin_titulo
+    	Definir cal1,cal2,cal3,cal4,promedio,suma Como Real
+    	Definir nombre_alumno,materia1,materia2,materia3,materia4 Como Caracter
+    	//solicitamos y almacenamos nombre del alumno
+    	Escribir "Ingresa el nombre del alumno"
+    	Leer nombre_alumno
+    	nombre_alumno<-Mayusculas(nombre_alumno)
+    	//solicitamos y almacenamos nombre materia1 y calificación 1
+    	PedirMateria()
+    	Leer materia1
+    	PedirCalificacion()
+    	Leer cal1
+    	suma<-suma + cal1
+    	
+    	//solicitamos y almacenamos nombre materia2 y calificación 2
+    	PedirMateria()
+    	Leer materia2
+    	PedirCalificacion()
+    	Leer cal2
+    	suma<-suma + cal2
+    	//solicitamos y almacenamos nombre materia3 y calificación 3
+    	PedirCalificacion()
+    	PedirMateria()
+    	Leer materia3
+    	Leer cal3
+    	suma<-suma + cal3
+    	//solicitamos y almacenamos nombre materia4 y calificación 4
+    	PedirMateria()
+    	Leer materia4
+    	PedirCalificacion()
+    	Leer cal4
+    	suma<-suma + cal4
+    	
+    	promedio <-redon(CalcularPromedio(suma))
+    	
+    	Escribir "El promedio de ",nombre_alumno, " es de ",promedio," aprobado? ",promedio >= 6
+    	
+    FinAlgoritmo
 
 
 ## DIAGRAMA DE FLUJO
 
-<img width="272" alt="image" src="https://github.com/escuelaDeCodigoMargaritaMaza/Pensamiento_computacional/assets/91554777/b1ed74e1-d145-497f-9432-814f960de6b6">
+<img width="287" alt="image" src="https://github.com/escuelaDeCodigoMargaritaMaza/Pensamiento_computacional/assets/91554777/fcceb404-7f8b-46c0-bb2e-4259e02b3c39">
+
 
 
