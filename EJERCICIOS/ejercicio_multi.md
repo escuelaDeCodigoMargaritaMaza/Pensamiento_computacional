@@ -502,3 +502,131 @@
 
 <img width="642" alt="image" src="https://github.com/escuelaDeCodigoMargaritaMaza/Pensamiento_computacional/assets/91554777/31e70b47-7440-4ba0-8579-f1cf82454a6b">
 
+# VERSION 9
+
+
+	Algoritmo calcular_mult
+	  	Definir num1,num2,res Como Entero
+		Definir opc Como entero
+		Definir rep,loop Como Logico
+		Definir repe, atinadas Como Entero
+		
+		Escribir "######################################################"
+		Escribir "#####J U E G O      D E      A D I V I N A R #########"
+		eSCRIBIR "######################################################"
+		Escribir "Presiona cualquier tecla para iniciar"
+		Esperar Tecla
+		Mientras loop = Falso Hacer
+		
+			op<-azar(3)+1
+			num1<-azar(100)+1
+			num2<-azar(10)+1
+			Segun op Hacer
+				1:
+						Escribir num1," + ",num2," = "
+						Leer res
+						
+						Si res = num1 + num2 Entonces
+							Escribir "Correcto"
+							rep<-Verdadero
+							atinadas<-atinadas + 1
+						SiNo
+							Escribir "Incorrecto"
+						Fin Si
+					
+					
+					Limpiar Pantalla
+					
+				2:
+						Escribir num1," - ",num2," = "
+						Leer res
+						Si res = num1 - num2 Entonces
+							Escribir "Correcto"
+							repe<-3
+							atinadas<-atinadas + 1
+						SiNo
+							Escribir "Incorrecto"
+							
+						Fin Si
+						
+					Limpiar Pantalla
+				3:
+						Escribir num1," / ",num2," = "
+						Leer res
+						Si res = num1 / num2 Entonces
+							Escribir "Correcto"
+							repe<-3
+							atinadas<-atinadas + 1
+						SiNo
+							Escribir "Incorrecto"
+						Fin Si
+					
+					Limpiar Pantalla
+				4: 
+						Escribir num1," * ",num2," = "
+						Leer res
+						Si res = num1 * num2 Entonces
+							Escribir "Procesando"
+							atinadas<-atinadas + 1
+						SiNo
+							Escribir "Incorrecto"
+						Fin Si
+					
+					Limpiar Pantalla
+					
+				De Otro Modo:
+					Escribir "Operacion invalida"
+			Fin Segun
+			
+			Escribir "Has adivinado ", atinadas 
+		Fin Mientras	
+		
+	
+			
+	  
+	FinAlgoritmo
+
+ # CRONOMETRO
+
+		 Algoritmo detarea
+			Definir h,m,s Como Entero
+			Escribir "Ingresa las horas"
+			leer h
+			Escribir "Ingresa los minutos"
+			leer m
+			Escribir "Ingresa los segundos"
+			leer s
+			Escribir "Presiona cualquier tecla para iniciar"
+			Esperar Tecla
+			Mientras h >= 0 Hacer
+				Mientras m >= 0 Hacer
+					Mientras s >= 0 Hacer
+						Limpiar Pantalla
+						si h > 9 Entonces
+							Escribir h Sin Saltar
+						SiNo
+							Escribir "0",h Sin Saltar
+						FinSi
+						si m > 9 Entonces
+							Escribir ":",m Sin Saltar
+						SiNo
+							Escribir ":0",m Sin Saltar
+						FinSi
+						si s > 9 Entonces
+							Escribir ":",s
+						SiNo
+							Escribir ":0",s
+						FinSi
+						Esperar 1 Segundos
+						s = s - 1
+					FinMientras
+					s = 59
+					m = m - 1
+				FinMientras
+				m = 59
+				h = h - 1
+			FinMientras
+			Para i<-0 Hasta 100 Con Paso 1 Hacer
+				Escribir "ALTOOOOOOOO!!!!!" Sin Saltar
+			Fin Para
+		FinAlgoritmo
