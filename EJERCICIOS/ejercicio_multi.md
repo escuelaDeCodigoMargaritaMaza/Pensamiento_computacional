@@ -78,3 +78,62 @@
 
 ![image](https://github.com/escuelaDeCodigoMargaritaMaza/Pensamiento_computacional/assets/91554777/c02f82b0-1060-4f88-add2-bfb79b3d0518)
 
+
+# VERSION 3
+
+## SEUDOCODIGO
+
+    Algoritmo calcular_mult
+      	Definir num1,num2,res,operador Como Entero
+    	
+      	num1<-azar(9)+1
+    	num2<-azar(99)+1
+    	
+       operador<-azar(3)+1
+    	
+    	Segun operador Hacer
+    		1:
+    			Escribir num1," * ",num2
+    			leer res
+    			Si res = num1 * num2 Entonces
+    				Escribir "CORRECTO"
+    			SiNo
+    				Escribir "INCORRECTO"
+    			Fin Si
+    		2:
+    			Escribir num1," / ",num2 
+    			leer res
+    			Si res = num1 / num2 Entonces
+    				Escribir "CORRECTO"
+    			SiNo
+    				Escribir "INCORRECTO"
+    			Fin Si
+    		3:
+    			Escribir num1," + ",num2
+    			leer res
+    			Si res = num1 + num2 Entonces
+    				Escribir "CORRECTO"
+    			SiNo
+    				Escribir "INCORRECTO"
+    			Fin Si
+    		4:
+    			Escribir num1," - ",num2
+    			leer res
+    			Si res = num1 - num2 Entonces
+    				Escribir "CORRECTO"
+    			SiNo
+    				Escribir "INCORRECTO"
+    			Fin Si
+    		De Otro Modo:
+    			Escribir "Operador invalido"
+    	Fin Segun
+    	
+      	
+    FinAlgoritmo
+
+
+## DIAGRAMA DE FLUJO
+
+<img width="635" alt="image" src="https://github.com/escuelaDeCodigoMargaritaMaza/Pensamiento_computacional/assets/91554777/a9dcf69e-fdb9-4d6b-98a2-7ab9e2239f7e">
+
+
