@@ -205,3 +205,98 @@
 
 <img width="807" alt="image" src="https://github.com/escuelaDeCodigoMargaritaMaza/Pensamiento_computacional/assets/91554777/276efbb0-676a-4ee0-9123-9d5bd62100c8">
 
+
+# VERSION 5
+
+## SEUDOCODIGO
+
+    Definir res Como Real
+    	
+    	Para j<-1 Hasta 5 Con Paso 1 Hacer
+    		Escribir "=================="
+    		Escribir "OPERACION: ",j
+    		Escribir "=================="
+    		num1<-azar(99)+1
+    		num2<-azar(9)+1
+    		
+    		operador<-azar(3)+1
+    		Segun operador Hacer
+    			1:
+    				Mientras repeticion = Falso Hacer
+    					Escribir num1," * ",num2
+    					leer res
+    					Si res = num1 * num2 Entonces
+    						Escribir "CORRECTO"
+    						puntos<-puntos + 1
+    						repeticion<-Verdadero
+    					SiNo
+    						Escribir "INCORRECTO"
+    					Fin Si
+    				Fin Mientras
+    				
+    				Limpiar Pantalla
+    			2:
+    				Repetir
+    					Escribir num1," / ",num2 
+    					leer res
+    					Si res = num1 / num2 Entonces
+    						Escribir "CORRECTO"
+    						puntos<-puntos + 1
+    					SiNo
+    						Escribir "INCORRECTO"
+    					Fin Si
+    				Hasta Que res=num1/num2
+    			
+    				
+    				Limpiar Pantalla
+    			3:
+    				Escribir "Para suma tienes 3 oportunidades"
+    				Para i<-1 Hasta 3 Con Paso 1 Hacer
+    					Escribir "Oportunidad ",i
+    					Escribir num1," + ",num2
+    					leer res
+    					Si res = num1 + num2 Entonces
+    						Escribir "CORRECTO"
+    						puntos<-puntos + 1
+    						i<-5
+    					SiNo
+    						Escribir "INCORRECTO"
+    					Fin Si
+    				Fin Para
+    				
+    				Limpiar Pantalla
+    			4:
+    				Escribir "Para resta tienes 5 oportunidades"
+    				Mientras contador<5 Hacer
+    					Escribir "Oportunidad ",contador
+    					Escribir num1," - ",num2
+    					leer res
+    					Si res = num1 - num2 Entonces
+    						Escribir "CORRECTO"
+    						puntos<-puntos + 1
+    						contador<-contador + 5
+    					SiNo
+    						Escribir "INCORRECTO"
+    						contador<-contador + 1
+    					Fin Si
+    				Fin Mientras
+    				
+    				
+    				Limpiar Pantalla
+    			De Otro Modo:
+    				Escribir "Operador invalido"
+    		Fin Segun
+    		
+    		
+    	Fin Para
+    	
+    	Escribir " Has adivinado a ",puntos," operaciones"
+    	
+    	
+      	
+    FinAlgoritmo
+
+## DIAGRAMA DE FLUJO
+
+<img width="614" alt="image" src="https://github.com/escuelaDeCodigoMargaritaMaza/Pensamiento_computacional/assets/91554777/32b4418e-b7ac-4403-8855-83c393b000da">
+
