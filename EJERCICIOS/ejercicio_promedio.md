@@ -320,3 +320,79 @@
         	Escribir 'la materia con la calificación mayor es ',materia_alta,'con ',cal_alta
         	Escribir 'la materia con la calificación menor es ',materia_baja,'con ',cal_baja
         FinAlgoritmo
+
+# VERSION 5
+## SEUDOCODIGO
+    Funcion PedirMateria()
+    	Escribir 'Ingresa la materia'
+    FinFuncion
+    
+    // procedimiento para pedir calificaciones
+    Funcion PedirCalificacion()
+    	Escribir 'Ingresa la calificacion'
+    FinFuncion
+    
+    
+    Algoritmo sin_titulo
+    	Definir numero_materias Como Entero
+    	Definir cal,prom,suma,cal_alta,cal_baja Como Real
+    	Definir nombre_alumno,materia,materia_alta,materia_baja Como Caracter
+    	// solicitamos y almacenamos nombre del alumno
+    	Para i<-1 Hasta 5 Hacer
+    		Escribir 'Ingresa el nombre del alumno ',i
+    		Leer nombre_alumno
+    		nombre_alumno <- Mayusculas(nombre_alumno)
+    		// solicitamos y almacenamos nombre materia1 y calificación 1
+    		Escribir 'Ingresa el número de materias del alumno ', nombre_alumno
+    		Leer numero_materias
+    		Para j<-1 Hasta numero_materias Hacer
+    			PedirMateria()
+    			Leer materia
+    			Si longitud(materia)=4 Entonces
+    				PedirCalificacion()
+    				Leer cal
+    				Si cal>0 Y cal<=10 Entonces
+    					suma <- suma+cal
+    					// solicitamos y almacenamos nombre materia2 y calificación 2
+    					cal_alta <- cal
+    					materia_alta <- materia
+    					cal_baja <- cal
+    					materia_baja <- materia
+    				FinSi
+    			FinSi
+    		FinPara
+    		Escribir suma
+    		prom<-suma/numero_materias
+    		escribir prom
+    		// según
+    		Segun prom Hacer
+    			prom >=9:
+    				Escribir "Excelente"
+    			prom >=7:
+    				Escribir "Muy Bien"
+    			prom >= 6:
+    				Escribir "Bien"
+    			De Otro Modo:
+    				Escribir "Reprobado"
+    		Fin Segun
+    		
+    		Si prom > 6 Entonces
+    			Escribir "aprobado2"
+    		SiNo
+    			Escribir "reprobado"
+    		Fin Si
+    		
+    		Escribir 'la materia con la calificación mayor es ',materia_alta,'con ',cal_alta
+    		Escribir 'la materia con la calificación menor es ',materia_baja,'con ',cal_baja
+    		Escribir 'Presiona una tecla para capturar al alumno ',i
+    		Esperar Tecla
+    		Borrar Pantalla
+    	FinPara
+    	Escribir '======================'
+    	Escribir 'Fin del programa'
+    	Escribir '======================'
+    FinAlgoritmo
+
+## DIAGRAMA DE FLUJO
+<img width="318" alt="image" src="https://github.com/escuelaDeCodigoMargaritaMaza/Pensamiento_computacional/assets/91554777/e040de4e-e300-40b4-8c85-af884a567559">
+
