@@ -321,6 +321,10 @@
         	Escribir 'la materia con la calificación menor es ',materia_baja,'con ',cal_baja
         FinAlgoritmo
 
+## DIAGRAMA DE FLUJO
+<img width="437" alt="image" src="https://github.com/escuelaDeCodigoMargaritaMaza/Pensamiento_computacional/assets/91554777/342c3493-4b6f-4d6c-b5a3-c15ffa4270d6">
+
+
 # VERSION 5
 ## SEUDOCODIGO
     Funcion PedirMateria()
