@@ -109,3 +109,101 @@ En resumen, el pensamiento computacional es una habilidad versátil y valiosa qu
 mejora la capacidad de abordar problemas de manera efectiva en una variedad de
 campos. Su aplicación va más allá de la programación y es esencial para prosperar en la
 era digital actual.
+
+## Introducción a Scratch.
+Scratch es un entorno de programación visual diseñado para introducir a personas de
+todas las edades en los conceptos fundamentales de la programación de una manera
+lúdica y creativa. Desarrollado por el Grupo Lifelong Kindergarten del MIT Media Lab,
+Scratch permite a los usuarios crear proyectos interactivos, animaciones y juegos sin
+tener que escribir código en un lenguaje de programación convencional.
+
+### Características Principales de Scratch:
+Scratch utiliza una interfaz gráfica de bloques que representan diferentes comandos y
+funciones. Los usuarios ensamblan estos bloques para crear programas, lo que facilita el
+aprendizaje de conceptos de programación sin la necesidad de codificación textual.
+En Scratch los usuarios programaran ensamblando bloques en lugar de escribir código.
+Esto facilita la experimentación y la corrección de errores. Además, Scratch cuenta con
+una comunidad en línea donde los usuarios pueden compartir sus proyectos, explorar
+creaciones de otros y aprender unos de otros. La plataforma fomenta la colaboración y
+la creatividad, y puede ser usado como un programa de escritorio o desde su aplicación
+web de manera gratuita y en línea (https://scratch.mit.edu/ ).
+
+A continuación se muestra la interfaz gráfica de un programa en Scratch :
+
+![image](https://github.com/escuelaDeCodigoMargaritaMaza/Pensamiento_computacional/assets/91554777/34c84169-64d2-4932-92d7-c240534b3f52)
+
+Dentro de la interfaz gráfica de Scratch podemos identificar algunos de los elementos
+más importantes:
+
+● Área de edición (bloques):
+
+En esta parte del programa se construirán los bloques de código que harán que los
+personajes y elementos del programa tengan la interacción que el usuario desee aplicar.
+
+● Bloques de Programación:
+
+Los bloques de Scratch representan acciones y eventos, como movimientos, repeticiones,
+decisiones y más. Estos bloques se pueden arrastrar y soltar para construir programas.
+
+● Personajes y Escenarios:
+
+Los proyectos en Scratch involucran personajes (sprites) que pueden ser animados y
+programados para interactuar entre sí y con el entorno (escenario).
+
+### Pasos Básicos para Crear en Scratch:
+A comparación de construir programas en algún lenguaje de programación, programar
+en Scratch es sencillo y para ello solo se requiere una serie de acciones principales:
+
+● Elegir un Personaje (Sprite):
+
+Seleccionar o crear un personaje que será parte del proyecto.
+
+● Programar Movimientos y Acciones:
+
+Utilizar bloques para programar movimientos, interacciones y cualquier acción deseada
+para el personaje.
+
+● Agregar Sonidos y Fondos:
+
+Personalizar el proyecto añadiendo sonidos, cambiando fondos y ajustando detalles
+visuales.
+
+● Controlar Eventos:
+
+Utilizar bloques de control para gestionar eventos, como clics del mouse o teclas
+presionadas.
+
+● Probar y Experimentar:
+
+Probar el proyecto continuamente para ver cómo se desarrolla y realizar ajustes según
+sea necesario.
+
+● Compartir y Colaborar:
+
+Una vez completado el programa, los usuarios pueden compartir sus proyectos en la
+comunidad de Scratch para que otros los vean y, potencialmente, colaboren.
+Beneficios Educativos:
+
+El aprendizaje de programación en Scratch tiene varios beneficios importantes, entre
+ellos podemos destacar:
+
+● Aprendizaje Lúdico:
+
+Scratch hace que el aprendizaje de la programación sea divertido y accesible,
+especialmente para principiantes.
+
+● Desarrollo de Pensamiento Computacional:
+Facilita la comprensión de conceptos clave de programación, como la secuenciación, la
+repetición y la toma de decisiones.
+
+● Creatividad y Expresión:
+
+Permite a los usuarios expresar su creatividad mediante la creación de proyectos
+interactivos, juegos y animaciones.
+
+● Comunidad de Aprendizaje:
+
+La comunidad en línea de Scratch proporciona un entorno de aprendizaje colaborativo
+donde los usuarios pueden compartir, inspirarse y aprender de los demás.
+En general, Scratch es una herramienta poderosa para introducir a niños, jóvenes y
+principiantes en el mundo de la programación de manera amigable y estimulante.
