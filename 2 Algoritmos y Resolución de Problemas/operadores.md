@@ -1,4 +1,4 @@
-# 2.3 Operadores
+# 2.3 Operadores cambio
 Los operadores son necesarios para realizar operaciones. Distinguimos entre operadores
 aritméticos, relacionales y lógicos.
 ## 2.3.1. Aritméticos
