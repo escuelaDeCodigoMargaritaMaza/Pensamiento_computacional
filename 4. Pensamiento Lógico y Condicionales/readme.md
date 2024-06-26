@@ -156,8 +156,42 @@ determine e imprima si el mismo es par, impar o nulo.
 
 ![image](https://github.com/escuelaDeCodigoMargaritaMaza/Pensamiento_computacional/assets/91554777/9f79a588-65bf-4062-aa6f-37a5469ab047)
 
+# Estructura selectivas multiples
+La estructura selectiva múltiple switch
+Con frecuencia —en la práctica— es necesario que existan más de dos elecciones
+posibles (por ejemplo, en la resolución de la ecuación de segundo grado existen tres
+posibles alternativas o caminos a seguir, según que el discriminante sea negativo, nulo o
+positivo). Este problema, como se verá más adelante, se podría resolver por estructuras
+alternativas simples o dobles, anidadas o en cascada; sin embargo, este método si el
+número de alternativas es grande puede plantear serios problemas de escritura del
+algoritmo y naturalmente de legibilidad.
 
+La estructura de decisión múltiple evaluará una expresión que podrá tomar n valores
+distintos, 1, 2, 3, 4, ..., n. Según que elija uno de estos valores en la condición, se realizará
+una de las n acciones, o lo que es igual, el flujo del algoritmo seguirá un determinado
+camino entre los n posibles.
 
+Es importante señalar que la estructura selectiva switch es muy flexible, lo que permite
+que se pueda aplicar de diferentes formas. Por ejemplo, si el selector tomará un valor
+distinto de los comprendidos entre 1 y N, entonces se debe seguir el camino etiquetado
+con De otra forma o Default.
 
+Las representación gráfica de la estructura switch es la siguiente:
 
+![image](https://github.com/escuelaDeCodigoMargaritaMaza/Pensamiento_computacional/assets/91554777/7d71d8ff-d079-4c21-a5d2-7079945d54b3)
 
+### Práctica en Scratch aplicado
+
+Ejercicio sugerido 1: Crea un programa en Scratch que indique cuál es el mayor de dos
+números ingresados por teclado.
+
+![image](https://github.com/escuelaDeCodigoMargaritaMaza/Pensamiento_computacional/assets/91554777/4fc3c53d-13a8-4c22-bd6d-ba2373cfebd0)
+
+Ejercicio sugerido 2: Diseña un programa que a partir de la nota ingresada por teclado,
+se envíe un mensaje de “o aprobado” si la nota es menor que 6. Si es mayor o igual que 6,
+y está entre 6 y 9 envíe el mensaje “Aprobado”, y si la nota es mayor o igual que 9 se
+muestre el mensaje “¡Sobresaliente!”.
+
+![image](https://github.com/escuelaDeCodigoMargaritaMaza/Pensamiento_computacional/assets/91554777/4956784e-1764-4639-8a2f-8d3cc8c77285)
+
+Solución propuesta:
