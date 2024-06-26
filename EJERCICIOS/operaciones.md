@@ -257,80 +257,78 @@
 
 # VERSION 6
 
-
-
-        Algoritmo sin_titulo
-        	//entrada
-        	definir num1,num2,res,operador, vidas,atinadas Como Real
-        	//Proceso 
-        	
-        	Para i <-1 Hasta 10 Con Paso 1 Hacer
-        		escribir "====================================="
-        		escribir "**********OPERACION ",i,"*************************"
-        		escribir "====================================="
-        		num1= azar(100)
-        		num2 = azar(10)
-        		
-        		operador = azar(4)+1
-        		
-        		Segun operador Hacer
-        			1:
-        				Mientras res <> num1 + num2 y vidas < 3 Hacer
-        					Escribir num1," + ",num2, " = "
-        					leer res
-        					Si res = num1 + num2 Entonces
-        						Escribir "Correcto"
-        						atinadas = atinadas + 1
-        					SiNo
-        						Escribir "incorrecto te quedad ", 3 - (vidas + 1)
-        						vidas = vidas + 1
-        					Fin Si
-        				Fin Mientras
-        				
-        			2:
-        				Mientras res <> num1 - num2 y vidas < 3 Hacer
-        					Escribir num1," - ",num2, " = "
-        					leer res
-        					Si res = num1 - num2 Entonces
-        						Escribir "Correcto"
-        						atinadas = atinadas + 1
-        					SiNo
-        						Escribir "incorrecto te quedad ", 3 - (vidas + 1)
-        						vidas = vidas + 1
-        					Fin Si
-        				Fin Mientras
-        				
-        			3:
-        				Mientras res <> num1 * num2 y vidas < 3 Hacer
-        					Escribir num1," * ",num2, " = "
-        					leer res
-        					Si res = num1 * num2 Entonces
-        						Escribir "Correcto"
-        						atinadas = atinadas + 1
-        					SiNo
-        						Escribir "incorrecto te quedad ", 3 - (vidas + 1)
-        						vidas = vidas + 1
-        					Fin Si
-        				Fin Mientras
-        				
-        			4:
-        				Mientras res <> num1 / num2 y vidas < 3 Hacer
-        					Escribir num1," / ",num2, " = "
-        					leer res
-        					Si res = num1 / num2 Entonces
-        						Escribir "Correcto"
-        						atinadas = atinadas + 1
-        					SiNo
-        						Escribir "incorrecto te quedad ", 3 - (vidas + 1)
-        						vidas = vidas + 1
-        					Fin Si
-        				Fin Mientras
-        				
-        		Fin Segun
-        	Fin Para
-        	
-        	
-        	
-        	//SALIDA
-        
-        FinAlgoritmo
+    Algoritmo sin_titulo
+    	//entrada
+    	definir num1,num2,res,operador, vidas,atinadas Como Real
+    	//Proceso 
+    	
+    	Para i <-1 Hasta 10 Con Paso 1 Hacer
+    		escribir "====================================="
+    		escribir "**********OPERACION ",i,"*************************"
+    		escribir "====================================="
+    		num1= azar(100)
+    		num2 = azar(10)
+    		
+    		operador = azar(4)+1
+    		
+    		Segun operador Hacer
+    			1:
+    				Mientras res <> num1 + num2 y vidas < 3 Hacer
+    					Escribir num1," + ",num2, " = "
+    					leer res
+    					Si res = num1 + num2 Entonces
+    						Escribir "Correcto"
+    						atinadas = atinadas + 1
+    					SiNo
+    						Escribir "incorrecto te quedad ", 3 - (vidas + 1)
+    						vidas = vidas + 1
+    					Fin Si
+    				Fin Mientras
+    				
+    			2:
+    				Mientras res <> num1 - num2 y vidas < 3 Hacer
+    					Escribir num1," - ",num2, " = "
+    					leer res
+    					Si res = num1 - num2 Entonces
+    						Escribir "Correcto"
+    						atinadas = atinadas + 1
+    					SiNo
+    						Escribir "incorrecto te quedad ", 3 - (vidas + 1)
+    						vidas = vidas + 1
+    					Fin Si
+    				Fin Mientras
+    				
+    			3:
+    				Mientras res <> num1 * num2 y vidas < 3 Hacer
+    					Escribir num1," * ",num2, " = "
+    					leer res
+    					Si res = num1 * num2 Entonces
+    						Escribir "Correcto"
+    						atinadas = atinadas + 1
+    					SiNo
+    						Escribir "incorrecto te quedad ", 3 - (vidas + 1)
+    						vidas = vidas + 1
+    					Fin Si
+    				Fin Mientras
+    				
+    			4:
+    				Mientras res <> num1 / num2 y vidas < 3 Hacer
+    					Escribir num1," / ",num2, " = "
+    					leer res
+    					Si res = num1 / num2 Entonces
+    						Escribir "Correcto"
+    						atinadas = atinadas + 1
+    					SiNo
+    						Escribir "incorrecto te quedad ", 3 - (vidas + 1)
+    						vidas = vidas + 1
+    					Fin Si
+    				Fin Mientras
+    				
+    		Fin Segun
+    	Fin Para
+    	
+    	ESCRIBIR "atinaste a ",atinadas
+    	
+    	//SALIDA
+    
+    FinAlgoritmo
