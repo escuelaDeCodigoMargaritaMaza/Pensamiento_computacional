@@ -202,3 +202,55 @@
         	Fin Para
         	
         FinAlgoritmo
+
+# VERSION 5
+
+    Algoritmo sin_titulo
+    	//entrada
+    	definir num1,num2,res,operador Como Real
+    	//Proceso 
+    	num1= azar(100)
+    	num2 = azar(10)
+    	
+    	operador = azar(4)+1
+    	
+    	Segun operador Hacer
+    		1:
+    			Escribir num1," + ",num2, " = "
+    			leer res
+    			Si res = num1 + num2 Entonces
+    				Escribir "Correcto"
+    			SiNo
+    				Escribir "incorrecto"
+    			Fin Si
+    		2:
+    			Escribir num1," - ",num2, " = "
+    			leer res
+    			Si res = num1 - num2 Entonces
+    				Escribir "Correcto"
+    			SiNo
+    				Escribir "incorrecto"
+    			Fin Si
+    		3:
+    			Escribir num1," * ",num2, " = "
+    			leer res
+    			Si res = num1 * num2 Entonces
+    				Escribir "Correcto"
+    			SiNo
+    				Escribir "incorrecto"
+    			Fin Si
+    		4:
+    			Escribir num1," / ",num2, " = "
+    			leer res
+    			Si res = num1 / num2 Entonces
+    				Escribir "Correcto"
+    			SiNo
+    				Escribir "incorrecto"
+    			Fin Si
+    		
+    	Fin Segun
+    	
+    	
+    	//SALIDA
+    
+    FinAlgoritmo
