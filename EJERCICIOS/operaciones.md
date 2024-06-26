@@ -31,3 +31,54 @@
     	escribir num1, operador , num2, " = ",res
     
     FinAlgoritmo
+
+## VERSION 2
+
+        Algoritmo sin_titulo
+        	//entrada
+        	definir num1,num2,res Como Real
+        	definir operador Como Caracter
+        	
+        	//Proceso 
+        	Escribir "Ingresa número 1"
+        	leer num1
+        	Escribir "Ingresa número 2"
+        	leer num2
+        	
+        	Escribir "Selecciona la operación: "
+        	Escribir " * para multiplicar"
+        	Escribir " + para sumar"
+        	Escribir " - para restar"
+        	Escribir " / para multiplica"
+        	Escribir " s para salir"
+        	leer operador
+        	operador = Mayusculas(operador)
+        	
+        	Mientras operador <> "S" Hacer
+        		Segun operador Hacer
+        			"+":
+        				res = num1 + num2
+        			"-":
+        				res = num1 - num2
+        			"*":
+        				res = num1 * num2
+        			"/":
+        				res = num1 / num2
+        			De Otro Modo:
+        				Escribir "operadorno valido "
+        		Fin Segun
+        		//salida
+        		escribir num1, operador , num2, " = ",res
+        		Escribir "Selecciona la operación: "
+        		Escribir " * para multiplicar"
+        		Escribir " + para sumar"
+        		Escribir " - para restar"
+        		Escribir " / para multiplica"
+        		Escribir " s para salir"
+        		leer operador
+        		operador = Mayusculas(operador)
+        		
+        	Fin Mientras
+        	
+        	
+        FinAlgoritmo
