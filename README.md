@@ -66,3 +66,6 @@ https://ocw.unican.es/course/view.php?id=195&section=2
 
 https://es.coursera.org/learn/algorithms-part1#syllabus
 
+
+
+https://view.genially.com/65a53387ea229c0014ebe584
