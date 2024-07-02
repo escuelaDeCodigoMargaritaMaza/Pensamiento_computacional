@@ -13,3 +13,8 @@
  ## mensaje ganaste
 
  <img width="252" alt="image" src="https://github.com/escuelaDeCodigoMargaritaMaza/Pensamiento_computacional/assets/91554777/96f658d2-7a01-4d29-ac4c-1a669aa7cc15">
+
+ ## escenario
+
+ <img width="394" alt="image" src="https://github.com/escuelaDeCodigoMargaritaMaza/Pensamiento_computacional/assets/91554777/1c729bd3-291b-4f8c-ac81-0721409fe74c">
+
