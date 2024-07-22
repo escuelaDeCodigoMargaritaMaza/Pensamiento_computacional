@@ -1,4 +1,4 @@
-
+https://www.dropbox.com/scl/fi/0cv3gnd2ahvws3imbzk00/Foto-21-07-24-17-45-23.jpg?rlkey=v646fudapax8phffciusz0god&dl=0
 # TEMARIO Pensamiento Computacional
 ## 1. Introducción al Pensamiento Computacional
 ### 1.1. Definición y conceptos básicos de pensamiento computacional.
