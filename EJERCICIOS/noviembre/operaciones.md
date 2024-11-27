@@ -147,3 +147,97 @@
             	
             
             FinAlgoritmo
+
+
+## VERSION 3
+            Algoritmo sin_titulo
+            	//variables
+            	Definir num1,num2,res Como Real
+            	Definir operador,contador,atinadas como entero
+            	Definir nombre,jugar Como Caracter
+            	
+            	Escribir "QUIERES JUGAR A RESOLVER OPERACIONES SI/NO"
+            	Leer jugar
+            	
+            	
+            	Mientras Mayusculas(jugar)="SI"  Hacer
+            		Para i<-1 Hasta 10 Con Paso 1 Hacer
+            			num1=azar(100)+1
+            			num2 = azar(10)+1
+            			operador=azar(4)
+            			contador=1
+            			Segun operador Hacer
+            				0:
+            					Escribir"suma"
+            					Mientras contador <> 4 Hacer
+            						Escribir "P R E G U N T A ",i
+            						Escribir "oportunidad ", contador
+            						Escribir num1," + ",num2," = "
+            						Leer res
+            						Si res = num1+num2 Entonces
+            							Escribir "C O R R E C T O "
+            							contador = 4
+            							atinadas = atinadas+1
+            						SiNo
+            							Escribir "I N C O R R E C T O"
+            							contador =  contador +1
+            						Fin Si
+            					Fin Mientras
+            				1:
+            					Escribir"resta"
+            					Mientras contador <> 4 Hacer
+            						Escribir "P R E G U N T A ",i
+            						Escribir "oportunidad ", contador
+            						Escribir num1," - ",num2," = "
+            						Leer res
+            						Si res = num1-num2 Entonces
+            							Escribir "C O R R E C T O "
+            							contador = 4
+            							atinadas = atinadas+1
+            						SiNo
+            							Escribir "I N C O R R E C T O"
+            							contador =  contador +1
+            						Fin Si
+            					Fin Mientras
+            				2:
+            					Escribir"multimplicación"
+            					Mientras contador <> 4 Hacer
+            						Escribir "P R E G U N T A ",i
+            						Escribir "oportunidad ", contador
+            						Escribir num1," * ",num2," = "
+            						Leer res
+            						Si res = num1*num2 Entonces
+            							Escribir "C O R R E C T O "
+            							contador = 4
+            							atinadas = atinadas+1
+            						SiNo
+            							Escribir "I N C O R R E C T O"
+            							contador =  contador +1
+            						Fin Si
+            					Fin Mientras
+            			
+            				De Otro Modo:
+            					Escribir"división"
+            					Mientras contador <> 4 Hacer
+            						Escribir "P R E G U N T A ",i
+            						Escribir "oportunidad ", contador
+            						Escribir num1," / ",num2," = "
+            						Leer res
+            						Si res = num1/num2 Entonces
+            							Escribir "C O R R E C T O "
+            							contador = 4
+            							atinadas = atinadas+1
+            						SiNo
+            							Escribir "I N C O R R E C T O"
+            							contador =  contador +
+            						Fin Si
+            					Fin Mientras
+            			Fin Segun
+            		Fin Para
+            		Escribir "A T I N A S T E ",atinadas
+            		Escribir "QUIERES JUGAR A RESOLVER OPERACIONES SI/NO"
+            		Leer jugar
+            	Fin Mientras
+            	
+            	
+            FinAlgoritmo
